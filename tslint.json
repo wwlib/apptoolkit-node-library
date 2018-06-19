@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rules": {
+    "curly": true,
+    "triple-equals": true,
+    "semicolon": [true, "always"],
+    "no-var-keyword": true,
+    "no-unused-expression": true,
+    "no-empty": true,
+    "jsdoc-format": true,
+    "no-duplicate-variable": true,
+    "no-debugger": true
+  },
+  "rulesDirectory": []
+}

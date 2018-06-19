@@ -1,0 +1,26 @@
+{
+    "source": {
+        "include": [
+            "lib",
+            "node_modules/@jibo/command-requester/lib/"
+        ]
+    },
+    "templates" : {
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+    
+    "opts": { 
+        "destination": "./docs/",
+        "recurse": true,
+        "readme": "README.md"    
+    },
+    "plugins" : [
+        "plugins/markdown",
+        "custom-tags.js"
+    ],
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc"]
+    }
+}
