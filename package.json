@@ -7,7 +7,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jibo-robot/apptoolkit-node-library.git"
+    "url": "git@github.com:wwlib/ww-apptoolkit-node-library.git"
   },
   "engines": {
     "node": ">= 8.5.0"
@@ -21,7 +21,7 @@
     "docs:open": "yarn docs && open docs/index.html"
   },
   "dependencies": {
-    "@jibo/command-requester": "^1.0.5",
+    "@jibo/command-requester": "github:wwlib/ww-command-requester#look-protocol-fix",
     "axios": "github:mividtim/axios#jibo"
   },
   "devDependencies": {
